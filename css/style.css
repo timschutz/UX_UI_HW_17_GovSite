@@ -147,8 +147,10 @@ h6{
 }
 .ui_num{
     display: inline;
+    vertical-align: middle;
 }
 .ui_num img{
+    padding-bottom: 20px;
     padding-right: 20px;
     float: left;
 }
@@ -231,7 +233,10 @@ h6{
         font-size: 16px;
     }
     .text_title{
-        width: 60%;
+        width: 80%;
+    }
+    .prob_state_cont{
+        width: 80%;
     }
 }
   @media only screen and (max-width: 930px) {
@@ -243,7 +248,7 @@ h6{
     .screens_cont{
         flex-direction: row;
         justify-content: center;
-        max-width: 200px;
+        max-width: 80%;
     }
     .screen img{
         max-width: 100%;
@@ -269,6 +274,12 @@ h6{
     }
     .user_insight_box.left{
         height: 320px;
+    }
+    .ui_num h5{
+        font-size: 16px;
+    }
+    .ui_num img{
+        padding-bottom: 10px;
     }
     .survey_cont{
         flex-direction: row;
