@@ -128,7 +128,7 @@ h6{
     margin: 350px auto;
 }
 .user_insight_box{
-    padding: 70px 60px 0px 60px;
+    padding: 40px 60px 20px 60px;
     width: 375px;
     height: auto;
 }
@@ -142,17 +142,21 @@ h6{
     background-color:#DAE0EB ;
 }
 .ui_left_bot{
-    padding-top: 15px;
+    padding-top: 60px;
     padding-bottom: 180px;
 }
-.ui_num{
-    display: inline;
-    vertical-align: middle;
+.res_question{
+    line-height: 0px;
+    background-color:#092964 ;
 }
-.ui_num img{
-    padding-bottom: 20px;
-    padding-right: 20px;
+.ui_num{
     float: left;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.ui_txt{
+    overflow: hidden;
+    vertical-align: top;
 }
 
 /* ***PROBLEM STATEMENT*** */
@@ -269,17 +273,10 @@ h6{
     .user_insight_box{
         padding: 70px 60px 70px 60px;
         margin-bottom: 20px;
-        /* width: 375px; */
         height: auto;
     }
     .user_insight_box.left{
         height: 320px;
-    }
-    .ui_num h5{
-        font-size: 16px;
-    }
-    .ui_num img{
-        padding-bottom: 10px;
     }
     .survey_cont{
         flex-direction: row;
